@@ -21,5 +21,5 @@ unset PGPASSWORD
 echo "Pull Complete"
 
 echo "Clearing old backups"
-find . -type f -iname '*.backup.gz' -ctime +15 -not -name '????-??-01.backup.gz' -delete
+find . -type f -iname '*.backup' -ctime +15 -not -name '????-??-01.backup' -delete
 echo "Clearing Complete"
